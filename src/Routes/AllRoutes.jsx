@@ -1,10 +1,10 @@
 import React from 'react';
 import { Route } from "react-router-dom";
-import AboutUs from "../pages/AboutUs";
+import About from "../pages/About";
 import Home from "../pages/Home";
-import ContactUs from "../pages/ContantUs";
+import Contact from "../pages/Contact";
 import Login  from "../pages/Login";
-import Service from "../pages/Service";
+import Services from "../pages/Services";
 
 function AllRoutes() {
   return (
@@ -13,13 +13,13 @@ function AllRoutes() {
         <Home />
       </Route>
       <Route path="/contact">
-        <ContactUs />
+        <Contact />
       </Route>
       <Route path="/about-us">
-        <AboutUs />
+        <About />
       </Route>
       <Route path="/services">
-        <Service />
+        <Services />
       </Route>
       <Route path="/login">
         <Login />

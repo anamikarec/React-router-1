@@ -1,4 +1,4 @@
-import React, { Component }  from 'react';
+import React from 'react';
 function Home() {
     return <h3>Home</h3>;
   }
